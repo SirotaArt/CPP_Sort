@@ -34,7 +34,7 @@
 cd LR1
 build.bat
 
-python scripts\generate_data.py
+generate_data.py
 
 build\lr1.exe
 
@@ -45,8 +45,8 @@ build\lr1.exe bench results\benchmark.csv ^
     data\lottery_15000.csv data\lottery_20000.csv data\lottery_30000.csv ^
     data\lottery_50000.csv data\lottery_70000.csv data\lottery_100000.csv
 
-python scripts\plot_results.py results\benchmark.csv results\plot_linear.png
-python scripts\plot_results.py results\benchmark.csv results\plot_loglog.png --log
+plot_results.py results\benchmark.csv results\plot_linear.png
+plot_results.py results\benchmark.csv results\plot_loglog.png --log
 ```
 
 ## Результаты
