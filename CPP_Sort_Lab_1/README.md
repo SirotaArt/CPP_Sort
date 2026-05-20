@@ -84,6 +84,6 @@ python scripts\plot_results.py results\benchmark.csv results\plot_loglog.png --l
 ## Документация
 
 - HTML-документация: [docs/html/index.html](docs/html/index.html)
-- Ссылка на GitHub:
+- Ссылка на GitHub: https://github.com/SirotaArt/CPP_Sort/tree/main/CPP_Sort_Lab_1
 - Конфигурация для Doxygen
  
