@@ -1,0 +1,15 @@
+PROJECT_NAME           = "ЛР1 — Сортировки лотерейных билетов"
+PROJECT_BRIEF          = "Selection / Bubble / Heap + std::sort"
+OUTPUT_DIRECTORY       = docs
+INPUT                  = src
+FILE_PATTERNS          = *.h *.cpp
+RECURSIVE              = YES
+EXTRACT_ALL            = YES
+EXTRACT_PRIVATE        = YES
+EXTRACT_STATIC         = YES
+GENERATE_HTML          = YES
+GENERATE_LATEX         = NO
+QUIET                  = YES
+WARN_NO_PARAMDOC       = NO
+OUTPUT_LANGUAGE        = Russian
+HTML_OUTPUT            = html
