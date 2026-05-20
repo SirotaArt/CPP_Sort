@@ -68,10 +68,10 @@ python scripts\plot_results.py results\benchmark.csv results\plot_loglog.png --l
 
 | Алгоритм | Время |
 |---|---:|
-| Selection sort | `13.7154` с |
-| Bubble sort | `31.3492` с |
-| Heap sort | `0.0219027` с |
-| `std::sort` | `0.0147317` с |
+| Selection sort | `22.8042` с |
+| Bubble sort | `71.0709` с |
+| Heap sort | `0.0454` с |
+| `std::sort` | `0.0309` с |
 
 ## Вывод
 
