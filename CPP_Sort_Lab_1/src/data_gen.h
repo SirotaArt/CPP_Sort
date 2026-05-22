@@ -16,9 +16,7 @@ namespace gen
         tm.tm_mon = 0;
         tm.tm_mday = 1 + days;
         std::mktime(&tm);
-        return (tm.tm_year + 1900) * 10000
-            + (tm.tm_mon + 1) * 100
-            + tm.tm_mday;
+        return (tm.tm_year + 1900) * 10000 + (tm.tm_mon + 1) * 100 + tm.tm_mday;
     }
 
     inline std::vector<LotteryTicket> synthesize(std::size_t count, std::uint32_t seed = 42)
