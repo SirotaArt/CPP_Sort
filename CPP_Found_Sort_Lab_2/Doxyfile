@@ -1,0 +1,13 @@
+PROJECT_NAME           = "ЛР2 — Поиск всех вхождений лотерейных билетов"
+PROJECT_BRIEF          = "Linear / BST / Red-Black Tree / Hash Table"
+OUTPUT_DIRECTORY       = docs
+INPUT                  = src
+FILE_PATTERNS          = *.h *.cpp
+RECURSIVE              = YES
+EXTRACT_ALL            = YES
+EXTRACT_PRIVATE        = YES
+GENERATE_HTML          = YES
+GENERATE_LATEX         = NO
+QUIET                  = YES
+OUTPUT_LANGUAGE        = Russian
+HTML_OUTPUT            = html
