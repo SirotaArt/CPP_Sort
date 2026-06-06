@@ -1,0 +1,4 @@
+generator,samples,mean_avg,cv_avg,chi2_avg,uniform_pass_count
+LCG_Xor,20,2499.34,57.523,22.96,17
+MidSquare_Improved,20,2499.98,57.205,19.466,19
+XorShift32_StarPlus,20,2480.34,58.225,17.82,20

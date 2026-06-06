@@ -1,0 +1,13 @@
+PROJECT_NAME           = "ЛР3 — Псевдослучайные генераторы"
+PROJECT_BRIEF          = "LCG_Xor / MidSquare_Improved / XorShift32_StarPlus"
+OUTPUT_DIRECTORY       = docs
+INPUT                  = src
+FILE_PATTERNS          = *.h *.cpp
+RECURSIVE              = YES
+EXTRACT_ALL            = YES
+EXTRACT_PRIVATE        = YES
+GENERATE_HTML          = YES
+GENERATE_LATEX         = NO
+QUIET                  = YES
+OUTPUT_LANGUAGE        = Russian
+HTML_OUTPUT            = html
